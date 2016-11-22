@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE7518081DE3EBD0005BABA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7518071DE3EBD0005BABA5 /* main.m */; };
+		EE75180B1DE3EBD0005BABA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE75180A1DE3EBD0005BABA5 /* AppDelegate.m */; };
+		EE75180E1DE3EBD0005BABA5 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE75180D1DE3EBD0005BABA5 /* RootViewController.m */; };
+		EE7518111DE3EBD0005BABA5 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7518101DE3EBD0005BABA5 /* DataViewController.m */; };
+		EE7518141DE3EBD0005BABA5 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7518131DE3EBD0005BABA5 /* ModelController.m */; };
+		EE7518171DE3EBD0005BABA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7518151DE3EBD0005BABA5 /* Main.storyboard */; };
+		EE7518191DE3EBD0005BABA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7518181DE3EBD0005BABA5 /* Assets.xcassets */; };
+		EE75181C1DE3EBD0005BABA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE75181A1DE3EBD0005BABA5 /* LaunchScreen.storyboard */; };
+		EE7518271DE3EBD0005BABA5 /* JINJIANFENGTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7518261DE3EBD0005BABA5 /* JINJIANFENGTests.m */; };
+		EE7518321DE3EBD0005BABA5 /* JINJIANFENGUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7518311DE3EBD0005BABA5 /* JINJIANFENGUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE7518231DE3EBD0005BABA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE7517FB1DE3EBD0005BABA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE7518021DE3EBD0005BABA5;
+			remoteInfo = JINJIANFENG;
+		};
+		EE75182E1DE3EBD0005BABA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE7517FB1DE3EBD0005BABA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE7518021DE3EBD0005BABA5;
+			remoteInfo = JINJIANFENG;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE7518031DE3EBD0005BABA5 /* JINJIANFENG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JINJIANFENG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7518071DE3EBD0005BABA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE7518091DE3EBD0005BABA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE75180A1DE3EBD0005BABA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE75180C1DE3EBD0005BABA5 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		EE75180D1DE3EBD0005BABA5 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		EE75180F1DE3EBD0005BABA5 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		EE7518101DE3EBD0005BABA5 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		EE7518121DE3EBD0005BABA5 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		EE7518131DE3EBD0005BABA5 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		EE7518161DE3EBD0005BABA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE7518181DE3EBD0005BABA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE75181B1DE3EBD0005BABA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE75181D1DE3EBD0005BABA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE7518221DE3EBD0005BABA5 /* JINJIANFENGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JINJIANFENGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7518261DE3EBD0005BABA5 /* JINJIANFENGTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JINJIANFENGTests.m; sourceTree = "<group>"; };
+		EE7518281DE3EBD0005BABA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE75182D1DE3EBD0005BABA5 /* JINJIANFENGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JINJIANFENGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7518311DE3EBD0005BABA5 /* JINJIANFENGUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JINJIANFENGUITests.m; sourceTree = "<group>"; };
+		EE7518331DE3EBD0005BABA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE7518001DE3EBD0005BABA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE75181F1DE3EBD0005BABA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE75182A1DE3EBD0005BABA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE7517FA1DE3EBD0005BABA5 = {
+			isa = PBXGroup;
+			children = (
+				EE7518051DE3EBD0005BABA5 /* JINJIANFENG */,
+				EE7518251DE3EBD0005BABA5 /* JINJIANFENGTests */,
+				EE7518301DE3EBD0005BABA5 /* JINJIANFENGUITests */,
+				EE7518041DE3EBD0005BABA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE7518041DE3EBD0005BABA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE7518031DE3EBD0005BABA5 /* JINJIANFENG.app */,
+				EE7518221DE3EBD0005BABA5 /* JINJIANFENGTests.xctest */,
+				EE75182D1DE3EBD0005BABA5 /* JINJIANFENGUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE7518051DE3EBD0005BABA5 /* JINJIANFENG */ = {
+			isa = PBXGroup;
+			children = (
+				EE7518091DE3EBD0005BABA5 /* AppDelegate.h */,
+				EE75180A1DE3EBD0005BABA5 /* AppDelegate.m */,
+				EE75180C1DE3EBD0005BABA5 /* RootViewController.h */,
+				EE75180D1DE3EBD0005BABA5 /* RootViewController.m */,
+				EE75180F1DE3EBD0005BABA5 /* DataViewController.h */,
+				EE7518101DE3EBD0005BABA5 /* DataViewController.m */,
+				EE7518121DE3EBD0005BABA5 /* ModelController.h */,
+				EE7518131DE3EBD0005BABA5 /* ModelController.m */,
+				EE7518151DE3EBD0005BABA5 /* Main.storyboard */,
+				EE7518181DE3EBD0005BABA5 /* Assets.xcassets */,
+				EE75181A1DE3EBD0005BABA5 /* LaunchScreen.storyboard */,
+				EE75181D1DE3EBD0005BABA5 /* Info.plist */,
+				EE7518061DE3EBD0005BABA5 /* Supporting Files */,
+			);
+			path = JINJIANFENG;
+			sourceTree = "<group>";
+		};
+		EE7518061DE3EBD0005BABA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE7518071DE3EBD0005BABA5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE7518251DE3EBD0005BABA5 /* JINJIANFENGTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE7518261DE3EBD0005BABA5 /* JINJIANFENGTests.m */,
+				EE7518281DE3EBD0005BABA5 /* Info.plist */,
+			);
+			path = JINJIANFENGTests;
+			sourceTree = "<group>";
+		};
+		EE7518301DE3EBD0005BABA5 /* JINJIANFENGUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE7518311DE3EBD0005BABA5 /* JINJIANFENGUITests.m */,
+				EE7518331DE3EBD0005BABA5 /* Info.plist */,
+			);
+			path = JINJIANFENGUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE7518021DE3EBD0005BABA5 /* JINJIANFENG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7518361DE3EBD0005BABA5 /* Build configuration list for PBXNativeTarget "JINJIANFENG" */;
+			buildPhases = (
+				EE7517FF1DE3EBD0005BABA5 /* Sources */,
+				EE7518001DE3EBD0005BABA5 /* Frameworks */,
+				EE7518011DE3EBD0005BABA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JINJIANFENG;
+			productName = JINJIANFENG;
+			productReference = EE7518031DE3EBD0005BABA5 /* JINJIANFENG.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE7518211DE3EBD0005BABA5 /* JINJIANFENGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7518391DE3EBD0005BABA5 /* Build configuration list for PBXNativeTarget "JINJIANFENGTests" */;
+			buildPhases = (
+				EE75181E1DE3EBD0005BABA5 /* Sources */,
+				EE75181F1DE3EBD0005BABA5 /* Frameworks */,
+				EE7518201DE3EBD0005BABA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE7518241DE3EBD0005BABA5 /* PBXTargetDependency */,
+			);
+			name = JINJIANFENGTests;
+			productName = JINJIANFENGTests;
+			productReference = EE7518221DE3EBD0005BABA5 /* JINJIANFENGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE75182C1DE3EBD0005BABA5 /* JINJIANFENGUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE75183C1DE3EBD0005BABA5 /* Build configuration list for PBXNativeTarget "JINJIANFENGUITests" */;
+			buildPhases = (
+				EE7518291DE3EBD0005BABA5 /* Sources */,
+				EE75182A1DE3EBD0005BABA5 /* Frameworks */,
+				EE75182B1DE3EBD0005BABA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE75182F1DE3EBD0005BABA5 /* PBXTargetDependency */,
+			);
+			name = JINJIANFENGUITests;
+			productName = JINJIANFENGUITests;
+			productReference = EE75182D1DE3EBD0005BABA5 /* JINJIANFENGUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE7517FB1DE3EBD0005BABA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = jinjianfeng;
+				TargetAttributes = {
+					EE7518021DE3EBD0005BABA5 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					EE7518211DE3EBD0005BABA5 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE7518021DE3EBD0005BABA5;
+					};
+					EE75182C1DE3EBD0005BABA5 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE7518021DE3EBD0005BABA5;
+					};
+				};
+			};
+			buildConfigurationList = EE7517FE1DE3EBD0005BABA5 /* Build configuration list for PBXProject "JINJIANFENG" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE7517FA1DE3EBD0005BABA5;
+			productRefGroup = EE7518041DE3EBD0005BABA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE7518021DE3EBD0005BABA5 /* JINJIANFENG */,
+				EE7518211DE3EBD0005BABA5 /* JINJIANFENGTests */,
+				EE75182C1DE3EBD0005BABA5 /* JINJIANFENGUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE7518011DE3EBD0005BABA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE75181C1DE3EBD0005BABA5 /* LaunchScreen.storyboard in Resources */,
+				EE7518191DE3EBD0005BABA5 /* Assets.xcassets in Resources */,
+				EE7518171DE3EBD0005BABA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7518201DE3EBD0005BABA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE75182B1DE3EBD0005BABA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE7517FF1DE3EBD0005BABA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7518111DE3EBD0005BABA5 /* DataViewController.m in Sources */,
+				EE75180B1DE3EBD0005BABA5 /* AppDelegate.m in Sources */,
+				EE7518141DE3EBD0005BABA5 /* ModelController.m in Sources */,
+				EE7518081DE3EBD0005BABA5 /* main.m in Sources */,
+				EE75180E1DE3EBD0005BABA5 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE75181E1DE3EBD0005BABA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7518271DE3EBD0005BABA5 /* JINJIANFENGTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7518291DE3EBD0005BABA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7518321DE3EBD0005BABA5 /* JINJIANFENGUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE7518241DE3EBD0005BABA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE7518021DE3EBD0005BABA5 /* JINJIANFENG */;
+			targetProxy = EE7518231DE3EBD0005BABA5 /* PBXContainerItemProxy */;
+		};
+		EE75182F1DE3EBD0005BABA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE7518021DE3EBD0005BABA5 /* JINJIANFENG */;
+			targetProxy = EE75182E1DE3EBD0005BABA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE7518151DE3EBD0005BABA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE7518161DE3EBD0005BABA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE75181A1DE3EBD0005BABA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE75181B1DE3EBD0005BABA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE7518341DE3EBD0005BABA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE7518351DE3EBD0005BABA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE7518371DE3EBD0005BABA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JINJIANFENG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjf.JINJIANFENG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE7518381DE3EBD0005BABA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JINJIANFENG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjf.JINJIANFENG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE75183A1DE3EBD0005BABA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JINJIANFENGTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjf.JINJIANFENGTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JINJIANFENG.app/JINJIANFENG";
+			};
+			name = Debug;
+		};
+		EE75183B1DE3EBD0005BABA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JINJIANFENGTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjf.JINJIANFENGTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JINJIANFENG.app/JINJIANFENG";
+			};
+			name = Release;
+		};
+		EE75183D1DE3EBD0005BABA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JINJIANFENGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjf.JINJIANFENGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JINJIANFENG;
+			};
+			name = Debug;
+		};
+		EE75183E1DE3EBD0005BABA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JINJIANFENGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjf.JINJIANFENGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JINJIANFENG;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE7517FE1DE3EBD0005BABA5 /* Build configuration list for PBXProject "JINJIANFENG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7518341DE3EBD0005BABA5 /* Debug */,
+				EE7518351DE3EBD0005BABA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE7518361DE3EBD0005BABA5 /* Build configuration list for PBXNativeTarget "JINJIANFENG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7518371DE3EBD0005BABA5 /* Debug */,
+				EE7518381DE3EBD0005BABA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE7518391DE3EBD0005BABA5 /* Build configuration list for PBXNativeTarget "JINJIANFENGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE75183A1DE3EBD0005BABA5 /* Debug */,
+				EE75183B1DE3EBD0005BABA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE75183C1DE3EBD0005BABA5 /* Build configuration list for PBXNativeTarget "JINJIANFENGUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE75183D1DE3EBD0005BABA5 /* Debug */,
+				EE75183E1DE3EBD0005BABA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE7517FB1DE3EBD0005BABA5 /* Project object */;
+}
