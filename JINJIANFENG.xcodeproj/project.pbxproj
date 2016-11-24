@@ -7,11 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60CED31DD61768460DE732D6 /* libPods-JINJIANFENG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2970B30751F8BFD541FAE07 /* libPods-JINJIANFENG.a */; };
+		EE373FFE1DE584770067C67A /* EmulatorNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE373FFD1DE584770067C67A /* EmulatorNaviViewController.m */; };
+		EE3740001DE5848D0067C67A /* GPSNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE373FFF1DE5848D0067C67A /* GPSNaviViewController.m */; };
+		EE3740041DE584AE0067C67A /* WalkRoutePlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3740031DE584AE0067C67A /* WalkRoutePlanViewController.m */; };
+		EE3740061DE584B80067C67A /* DriveRoutePlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3740051DE584B80067C67A /* DriveRoutePlanViewController.m */; };
+		EE37400F1DE59F250067C67A /* MusicPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37400E1DE59F250067C67A /* MusicPlayerViewController.m */; };
+		EE3740151DE6B2AB0067C67A /* PlayerBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3740141DE6B2AB0067C67A /* PlayerBar.m */; };
+		EE37401A1DE6B3360067C67A /* SearchListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3740191DE6B3360067C67A /* SearchListViewController.m */; };
+		EE37401D1DE6B3770067C67A /* PlayerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37401C1DE6B3770067C67A /* PlayerListViewController.m */; };
+		EE3740201DE6B3CA0067C67A /* ChannelListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37401F1DE6B3CA0067C67A /* ChannelListViewController.m */; };
+		EE3740311DE6C03B0067C67A /* TableListView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3740301DE6C03B0067C67A /* TableListView.m */; };
+		EE37403A1DE6DCEE0067C67A /* RadioListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3740391DE6DCEE0067C67A /* RadioListViewController.m */; };
+		EE37403C1DE6DD110067C67A /* NewListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37403B1DE6DD110067C67A /* NewListViewController.m */; };
+		EE429A381DE56E3D007E03B1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE429A371DE56E3D007E03B1 /* MainViewController.m */; };
 		EE7518081DE3EBD0005BABA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7518071DE3EBD0005BABA5 /* main.m */; };
 		EE75180B1DE3EBD0005BABA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE75180A1DE3EBD0005BABA5 /* AppDelegate.m */; };
-		EE75180E1DE3EBD0005BABA5 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE75180D1DE3EBD0005BABA5 /* RootViewController.m */; };
-		EE7518111DE3EBD0005BABA5 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7518101DE3EBD0005BABA5 /* DataViewController.m */; };
-		EE7518141DE3EBD0005BABA5 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7518131DE3EBD0005BABA5 /* ModelController.m */; };
 		EE7518171DE3EBD0005BABA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7518151DE3EBD0005BABA5 /* Main.storyboard */; };
 		EE7518191DE3EBD0005BABA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7518181DE3EBD0005BABA5 /* Assets.xcassets */; };
 		EE75181C1DE3EBD0005BABA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE75181A1DE3EBD0005BABA5 /* LaunchScreen.storyboard */; };
@@ -37,16 +48,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F2B4BD32DE013E3809AD3E2 /* Pods-JINJIANFENG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JINJIANFENG.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JINJIANFENG/Pods-JINJIANFENG.debug.xcconfig"; sourceTree = "<group>"; };
+		B4314E00B3F00572FA0ADF77 /* Pods-JINJIANFENG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JINJIANFENG.release.xcconfig"; path = "Pods/Target Support Files/Pods-JINJIANFENG/Pods-JINJIANFENG.release.xcconfig"; sourceTree = "<group>"; };
+		EE373FFC1DE5846C0067C67A /* EmulatorNaviViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmulatorNaviViewController.h; sourceTree = "<group>"; };
+		EE373FFD1DE584770067C67A /* EmulatorNaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmulatorNaviViewController.m; sourceTree = "<group>"; };
+		EE373FFF1DE5848D0067C67A /* GPSNaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSNaviViewController.m; sourceTree = "<group>"; };
+		EE3740011DE5849A0067C67A /* GPSNaviViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPSNaviViewController.h; sourceTree = "<group>"; };
+		EE3740021DE584A30067C67A /* WalkRoutePlanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WalkRoutePlanViewController.h; sourceTree = "<group>"; };
+		EE3740031DE584AE0067C67A /* WalkRoutePlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalkRoutePlanViewController.m; sourceTree = "<group>"; };
+		EE3740051DE584B80067C67A /* DriveRoutePlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriveRoutePlanViewController.m; sourceTree = "<group>"; };
+		EE3740071DE584C00067C67A /* DriveRoutePlanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DriveRoutePlanViewController.h; sourceTree = "<group>"; };
+		EE37400D1DE59F1B0067C67A /* MusicPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicPlayerViewController.h; sourceTree = "<group>"; };
+		EE37400E1DE59F250067C67A /* MusicPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerViewController.m; sourceTree = "<group>"; };
+		EE3740141DE6B2AB0067C67A /* PlayerBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerBar.m; sourceTree = "<group>"; };
+		EE3740161DE6B2B60067C67A /* PlayerBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerBar.h; sourceTree = "<group>"; };
+		EE3740191DE6B3360067C67A /* SearchListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchListViewController.m; sourceTree = "<group>"; };
+		EE37401B1DE6B3510067C67A /* SearchListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchListViewController.h; sourceTree = "<group>"; };
+		EE37401C1DE6B3770067C67A /* PlayerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerListViewController.m; sourceTree = "<group>"; };
+		EE37401E1DE6B37E0067C67A /* PlayerListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerListViewController.h; sourceTree = "<group>"; };
+		EE37401F1DE6B3CA0067C67A /* ChannelListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelListViewController.m; sourceTree = "<group>"; };
+		EE3740221DE6B5B10067C67A /* ChannelListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChannelListViewController.h; sourceTree = "<group>"; };
+		EE3740301DE6C03B0067C67A /* TableListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableListView.m; sourceTree = "<group>"; };
+		EE3740321DE6C0430067C67A /* TableListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableListView.h; sourceTree = "<group>"; };
+		EE3740381DE6DCE10067C67A /* RadioListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadioListViewController.h; sourceTree = "<group>"; };
+		EE3740391DE6DCEE0067C67A /* RadioListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioListViewController.m; sourceTree = "<group>"; };
+		EE37403B1DE6DD110067C67A /* NewListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewListViewController.m; sourceTree = "<group>"; };
+		EE37403D1DE6DD190067C67A /* NewListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewListViewController.h; sourceTree = "<group>"; };
+		EE429A361DE56E2A007E03B1 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		EE429A371DE56E3D007E03B1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		EE7518031DE3EBD0005BABA5 /* JINJIANFENG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JINJIANFENG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7518071DE3EBD0005BABA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE7518091DE3EBD0005BABA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EE75180A1DE3EBD0005BABA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EE75180C1DE3EBD0005BABA5 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		EE75180D1DE3EBD0005BABA5 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		EE75180F1DE3EBD0005BABA5 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
-		EE7518101DE3EBD0005BABA5 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
-		EE7518121DE3EBD0005BABA5 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
-		EE7518131DE3EBD0005BABA5 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
 		EE7518161DE3EBD0005BABA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE7518181DE3EBD0005BABA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE75181B1DE3EBD0005BABA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +90,7 @@
 		EE75182D1DE3EBD0005BABA5 /* JINJIANFENGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JINJIANFENGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7518311DE3EBD0005BABA5 /* JINJIANFENGUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JINJIANFENGUITests.m; sourceTree = "<group>"; };
 		EE7518331DE3EBD0005BABA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2970B30751F8BFD541FAE07 /* libPods-JINJIANFENG.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JINJIANFENG.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60CED31DD61768460DE732D6 /* libPods-JINJIANFENG.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +119,106 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C21527509C146A2C8AA4BEF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2970B30751F8BFD541FAE07 /* libPods-JINJIANFENG.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC4ABB5127C6BEDADD826ADE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F2B4BD32DE013E3809AD3E2 /* Pods-JINJIANFENG.debug.xcconfig */,
+				B4314E00B3F00572FA0ADF77 /* Pods-JINJIANFENG.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE373FF81DE5843E0067C67A /* DriveRoutePlan */ = {
+			isa = PBXGroup;
+			children = (
+				EE3740051DE584B80067C67A /* DriveRoutePlanViewController.m */,
+				EE3740071DE584C00067C67A /* DriveRoutePlanViewController.h */,
+			);
+			name = DriveRoutePlan;
+			sourceTree = "<group>";
+		};
+		EE373FF91DE5844D0067C67A /* WalkRoutePlan */ = {
+			isa = PBXGroup;
+			children = (
+				EE3740021DE584A30067C67A /* WalkRoutePlanViewController.h */,
+				EE3740031DE584AE0067C67A /* WalkRoutePlanViewController.m */,
+			);
+			name = WalkRoutePlan;
+			sourceTree = "<group>";
+		};
+		EE373FFA1DE584520067C67A /* GPSNavi */ = {
+			isa = PBXGroup;
+			children = (
+				EE373FFF1DE5848D0067C67A /* GPSNaviViewController.m */,
+				EE3740011DE5849A0067C67A /* GPSNaviViewController.h */,
+			);
+			name = GPSNavi;
+			sourceTree = "<group>";
+		};
+		EE373FFB1DE584590067C67A /* EmulatorNavi */ = {
+			isa = PBXGroup;
+			children = (
+				EE373FFC1DE5846C0067C67A /* EmulatorNaviViewController.h */,
+				EE373FFD1DE584770067C67A /* EmulatorNaviViewController.m */,
+			);
+			name = EmulatorNavi;
+			sourceTree = "<group>";
+		};
+		EE3740131DE6B28C0067C67A /* SearchList */ = {
+			isa = PBXGroup;
+			children = (
+				EE3740191DE6B3360067C67A /* SearchListViewController.m */,
+				EE37401B1DE6B3510067C67A /* SearchListViewController.h */,
+				EE3740141DE6B2AB0067C67A /* PlayerBar.m */,
+				EE3740161DE6B2B60067C67A /* PlayerBar.h */,
+			);
+			name = SearchList;
+			sourceTree = "<group>";
+		};
+		EE3740171DE6B3060067C67A /* ChannleList */ = {
+			isa = PBXGroup;
+			children = (
+				EE37401F1DE6B3CA0067C67A /* ChannelListViewController.m */,
+				EE3740221DE6B5B10067C67A /* ChannelListViewController.h */,
+			);
+			name = ChannleList;
+			sourceTree = "<group>";
+		};
+		EE3740291DE6B7480067C67A /* MusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				EE37400E1DE59F250067C67A /* MusicPlayerViewController.m */,
+				EE37400D1DE59F1B0067C67A /* MusicPlayerViewController.h */,
+			);
+			name = MusicPlayer;
+			sourceTree = "<group>";
+		};
+		EE37402B1DE6B7760067C67A /* PlayerList */ = {
+			isa = PBXGroup;
+			children = (
+				EE37401C1DE6B3770067C67A /* PlayerListViewController.m */,
+				EE37401E1DE6B37E0067C67A /* PlayerListViewController.h */,
+			);
+			name = PlayerList;
+			sourceTree = "<group>";
+		};
+		EE3740361DE6DC210067C67A /* Views(视图) */ = {
+			isa = PBXGroup;
+			children = (
+				EE3740301DE6C03B0067C67A /* TableListView.m */,
+				EE3740321DE6C0430067C67A /* TableListView.h */,
+			);
+			name = "Views(视图)";
+			sourceTree = "<group>";
+		};
 		EE7517FA1DE3EBD0005BABA5 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +226,8 @@
 				EE7518251DE3EBD0005BABA5 /* JINJIANFENGTests */,
 				EE7518301DE3EBD0005BABA5 /* JINJIANFENGUITests */,
 				EE7518041DE3EBD0005BABA5 /* Products */,
+				CC4ABB5127C6BEDADD826ADE /* Pods */,
+				C21527509C146A2C8AA4BEF0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,14 +244,13 @@
 		EE7518051DE3EBD0005BABA5 /* JINJIANFENG */ = {
 			isa = PBXGroup;
 			children = (
+				EE75183F1DE3EC01005BABA5 /* Resources(资源) */,
+				EE7518481DE3ECAB005BABA5 /* Models(模型) */,
+				EE3740361DE6DC210067C67A /* Views(视图) */,
+				EE7518421DE3EC74005BABA5 /* Controllers(控制器) */,
+				EE7518411DE3EC6C005BABA5 /* Util(基础工具) */,
 				EE7518091DE3EBD0005BABA5 /* AppDelegate.h */,
 				EE75180A1DE3EBD0005BABA5 /* AppDelegate.m */,
-				EE75180C1DE3EBD0005BABA5 /* RootViewController.h */,
-				EE75180D1DE3EBD0005BABA5 /* RootViewController.m */,
-				EE75180F1DE3EBD0005BABA5 /* DataViewController.h */,
-				EE7518101DE3EBD0005BABA5 /* DataViewController.m */,
-				EE7518121DE3EBD0005BABA5 /* ModelController.h */,
-				EE7518131DE3EBD0005BABA5 /* ModelController.m */,
 				EE7518151DE3EBD0005BABA5 /* Main.storyboard */,
 				EE7518181DE3EBD0005BABA5 /* Assets.xcassets */,
 				EE75181A1DE3EBD0005BABA5 /* LaunchScreen.storyboard */,
@@ -150,6 +286,88 @@
 			path = JINJIANFENGUITests;
 			sourceTree = "<group>";
 		};
+		EE75183F1DE3EC01005BABA5 /* Resources(资源) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Resources(资源)";
+			sourceTree = "<group>";
+		};
+		EE7518411DE3EC6C005BABA5 /* Util(基础工具) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Util(基础工具)";
+			sourceTree = "<group>";
+		};
+		EE7518421DE3EC74005BABA5 /* Controllers(控制器) */ = {
+			isa = PBXGroup;
+			children = (
+				EE7518471DE3EC96005BABA5 /* News(新闻) */,
+				EE7518461DE3EC90005BABA5 /* Radio(电台) */,
+				EE7518451DE3EC8B005BABA5 /* Music(音乐) */,
+				EE7518441DE3EC86005BABA5 /* Main(公共) */,
+				EE7518431DE3EC7E005BABA5 /* Nav(导航) */,
+			);
+			name = "Controllers(控制器)";
+			sourceTree = "<group>";
+		};
+		EE7518431DE3EC7E005BABA5 /* Nav(导航) */ = {
+			isa = PBXGroup;
+			children = (
+				EE373FFB1DE584590067C67A /* EmulatorNavi */,
+				EE373FFA1DE584520067C67A /* GPSNavi */,
+				EE373FF91DE5844D0067C67A /* WalkRoutePlan */,
+				EE373FF81DE5843E0067C67A /* DriveRoutePlan */,
+			);
+			name = "Nav(导航)";
+			sourceTree = "<group>";
+		};
+		EE7518441DE3EC86005BABA5 /* Main(公共) */ = {
+			isa = PBXGroup;
+			children = (
+				EE429A361DE56E2A007E03B1 /* MainViewController.h */,
+				EE429A371DE56E3D007E03B1 /* MainViewController.m */,
+			);
+			name = "Main(公共)";
+			sourceTree = "<group>";
+		};
+		EE7518451DE3EC8B005BABA5 /* Music(音乐) */ = {
+			isa = PBXGroup;
+			children = (
+				EE37402B1DE6B7760067C67A /* PlayerList */,
+				EE3740291DE6B7480067C67A /* MusicPlayer */,
+				EE3740171DE6B3060067C67A /* ChannleList */,
+				EE3740131DE6B28C0067C67A /* SearchList */,
+			);
+			name = "Music(音乐)";
+			sourceTree = "<group>";
+		};
+		EE7518461DE3EC90005BABA5 /* Radio(电台) */ = {
+			isa = PBXGroup;
+			children = (
+				EE3740381DE6DCE10067C67A /* RadioListViewController.h */,
+				EE3740391DE6DCEE0067C67A /* RadioListViewController.m */,
+			);
+			name = "Radio(电台)";
+			sourceTree = "<group>";
+		};
+		EE7518471DE3EC96005BABA5 /* News(新闻) */ = {
+			isa = PBXGroup;
+			children = (
+				EE37403B1DE6DD110067C67A /* NewListViewController.m */,
+				EE37403D1DE6DD190067C67A /* NewListViewController.h */,
+			);
+			name = "News(新闻)";
+			sourceTree = "<group>";
+		};
+		EE7518481DE3ECAB005BABA5 /* Models(模型) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Models(模型)";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,9 +375,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE7518361DE3EBD0005BABA5 /* Build configuration list for PBXNativeTarget "JINJIANFENG" */;
 			buildPhases = (
+				6EF0B87E309443DA638398F7 /* [CP] Check Pods Manifest.lock */,
 				EE7517FF1DE3EBD0005BABA5 /* Sources */,
 				EE7518001DE3EBD0005BABA5 /* Frameworks */,
 				EE7518011DE3EBD0005BABA5 /* Resources */,
+				8D7CF9BF76A2B6DCC3937CCC /* [CP] Embed Pods Frameworks */,
+				CD89EE754BCA32D1B7ED99CA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -278,16 +499,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6EF0B87E309443DA638398F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8D7CF9BF76A2B6DCC3937CCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JINJIANFENG/Pods-JINJIANFENG-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD89EE754BCA32D1B7ED99CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JINJIANFENG/Pods-JINJIANFENG-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EE7517FF1DE3EBD0005BABA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE7518111DE3EBD0005BABA5 /* DataViewController.m in Sources */,
+				EE3740061DE584B80067C67A /* DriveRoutePlanViewController.m in Sources */,
 				EE75180B1DE3EBD0005BABA5 /* AppDelegate.m in Sources */,
-				EE7518141DE3EBD0005BABA5 /* ModelController.m in Sources */,
+				EE373FFE1DE584770067C67A /* EmulatorNaviViewController.m in Sources */,
+				EE37401A1DE6B3360067C67A /* SearchListViewController.m in Sources */,
+				EE37400F1DE59F250067C67A /* MusicPlayerViewController.m in Sources */,
+				EE37401D1DE6B3770067C67A /* PlayerListViewController.m in Sources */,
+				EE3740311DE6C03B0067C67A /* TableListView.m in Sources */,
+				EE3740201DE6B3CA0067C67A /* ChannelListViewController.m in Sources */,
+				EE37403A1DE6DCEE0067C67A /* RadioListViewController.m in Sources */,
+				EE3740001DE5848D0067C67A /* GPSNaviViewController.m in Sources */,
+				EE429A381DE56E3D007E03B1 /* MainViewController.m in Sources */,
+				EE3740041DE584AE0067C67A /* WalkRoutePlanViewController.m in Sources */,
+				EE37403C1DE6DD110067C67A /* NewListViewController.m in Sources */,
+				EE3740151DE6B2AB0067C67A /* PlayerBar.m in Sources */,
 				EE7518081DE3EBD0005BABA5 /* main.m in Sources */,
-				EE75180E1DE3EBD0005BABA5 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,22 +713,24 @@
 		};
 		EE7518371DE3EBD0005BABA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F2B4BD32DE013E3809AD3E2 /* Pods-JINJIANFENG.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JINJIANFENG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jjf.JINJIANFENG;
+				PRODUCT_BUNDLE_IDENTIFIER = ALI.NavPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		EE7518381DE3EBD0005BABA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4314E00B3F00572FA0ADF77 /* Pods-JINJIANFENG.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JINJIANFENG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jjf.JINJIANFENG;
+				PRODUCT_BUNDLE_IDENTIFIER = ALI.NavPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -519,6 +800,7 @@
 				EE7518381DE3EBD0005BABA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE7518391DE3EBD0005BABA5 /* Build configuration list for PBXNativeTarget "JINJIANFENGTests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +809,7 @@
 				EE75183B1DE3EBD0005BABA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE75183C1DE3EBD0005BABA5 /* Build configuration list for PBXNativeTarget "JINJIANFENGUITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +818,7 @@
 				EE75183E1DE3EBD0005BABA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

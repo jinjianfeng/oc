@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <AMapFoundationKit/AMapFoundationKit.h>
+#import "MainViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    //AMap Key
+    [[AMapServices sharedServices] setEnableHTTPS:YES];
+    [AMapServices sharedServices].apiKey = @"815cdc67134ad1579aca68b45ef97f05";
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.viewController = [[MainViewController alloc] init];
+    self.window.rootViewController  = [[UINavigationController alloc] initWithRootViewController: self.viewController];
+    self.window.backgroundColor     = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

@@ -1,0 +1,9 @@
+target "JINJIANFENG"
+pod "FMDB"
+pod "YYKit"
+pod "SDAutoLayout"
+pod "AMapNavi" #导航SDK
+pod "AFNetworking"
+pod "SDWebImage"
+pod "PLPlayerKit"
+pod "StreamingKit"
